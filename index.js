@@ -22,7 +22,7 @@ $('.shopping-list').on('click', '.shopping-item-delete', function (event) {
 });
 
 $('.shopping-list').on('click', '.shopping-item-toggle', function (event) {
-  $(this).closest('li', '.shopping-item', '.shopping-item__checked').toggleClass('shopping-item__checked')
+  $(this).closest('li').toggleClass('shopping-item__checked')
 });
 
 
